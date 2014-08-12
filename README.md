@@ -7,7 +7,7 @@ Usage
 =====
 
 
-	from twisted.internet.address import IPv4Address, UNIXAddress
+	from twisted.internet.address import IPv4Address
 	from txredis.client import RedisConnectionPool
 
 	redis = (RedisConnectionPool(
